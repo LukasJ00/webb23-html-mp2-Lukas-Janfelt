@@ -3,15 +3,16 @@
     display: grid;
     /*grid-auto-flow: column;*/
     grid-template-areas: "a b";
-    grid-auto-columns: 10% 26vh; /* fick lära mig mer hur grid fungera*/
+    grid-auto-columns: 10vmax 30vmax; /* fick lära mig mer hur grid fungera*/
     justify-content: center;
+
 }
 
 
 
 .grid-item{
-    border: 1px solid black;
-    padding: 10px;               /* outine för columnen*/
+    
+padding: 10px;               /* outine för columnen*/
 }
 
 #input{

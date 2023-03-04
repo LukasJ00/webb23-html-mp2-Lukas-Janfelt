@@ -27,15 +27,13 @@ body{
     margin-top: 1vh;
     margin-right: 1vh;
     border: 1px solid black;
-    width: 25vh;
-    height: 17vh;
+    width: 25vmax;
+    height: 25vh;
     text-align-last: center;
     background: #cc9900;
-    padding-left: 8px;
-    padding-top: 5px;
     display: flex;              /*öppetider box*/
     position: absolute;
-    font-size:  25px;
+    font-size: medium;
     top:0;
     right: 0;
     border-radius: 1rem;

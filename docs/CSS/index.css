@@ -105,7 +105,7 @@ p{
     0% {
       filter: blur(0px);
     }
-  
+                                /*blur animation*/
     50% {
       filter: blur(2px);
     }

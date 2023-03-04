@@ -27,11 +27,11 @@ body{
     border: 1px solid black;
     background: #cc9900;
     margin-top: 1vh;
-    margin-right: 1vh;
-    padding-left: 1%;
+    margin-right: 1vw;
+    padding-left: 2%;
     padding-top: 1%;
-    width: 20vmax;
-    height: 25vh;
+    width: 250px;
+    height: 150px;
     text-align-last: center;
     display: flex;              /*öppetider box*/
     position: absolute;

@@ -1,0 +1,26 @@
+.grid-container{
+    margin-top: 1rem;
+    display: grid;
+    /*grid-auto-flow: column;*/
+    grid-template-areas: "a b";
+    grid-auto-columns: 80px 220px; /* fick lära mig mer hur grid fungera*/
+    justify-content: center;
+}
+
+
+
+.grid-item{
+    border: 1px solid black;
+    padding: 10px;               /* outine för columnen*/
+}
+
+#input{
+    border-radius: 0.5rem;
+    font-size: 1rem;            /*layout på alla inputs*/
+}
+
+.formulär{
+    margin-top: 3rem;
+    text-align: center;             /*formulär rubrik position**/
+    text-shadow: #000 0px 0px 5px;
+}

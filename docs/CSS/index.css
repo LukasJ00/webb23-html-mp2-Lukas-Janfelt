@@ -1,0 +1,152 @@
+*{
+    padding: 0%;            /*default padding och margin*/
+    margin: 0%;
+}
+body{
+    margin: 0;
+    padding: 0;                            /*backgrund på alla sidor*/
+    background-color: #cd071e;
+}
+.image{
+    border: 1px solid black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;                /*backgrunds bild layout*/
+    color: black;
+    letter-spacing: 5px;
+    font-size: 3rem;
+    background-position: center;
+    background-size: cover;
+    background-image:linear-gradient(0deg,rgba(176, 31, 5, 0.5),rgba(231, 223, 210, 0.5)), url(/bilder/kin-long.webp);
+}
+
+
+#box{
+    border: 1px solid black;
+    width: 250px;
+    height: 40vh;
+    background: #cc9900;
+    display: flex;              /*öppetider box*/
+    position: absolute;
+    top:0;
+    right: 0;
+    border-radius: 1rem;
+}
+
+
+.navbar ul{
+list-style: none;
+background: white;                  /*navbar utseende*/
+padding: 0x;
+margin: 0;
+text-align: center;
+
+}
+
+.navbar li{
+    display: inline-block; 
+        /*navbar funktion*/
+}
+.navbar a{
+    text-decoration: none;
+    color: #cc9900;
+    width: 100%;
+    display: block;         /*navbar länk layout*/
+    padding: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+  
+    
+}
+.navbar a:hover{
+    transition: all 1s ease;
+    background:#cd071e;   /*navbar hover funktion*/
+
+}
+
+h1{
+    text-align: center;
+    text-shadow: #000 0px 0px 5px;
+    -webkit-font-smoothing: antialiased;        /*huvud rubrik*/
+    color:#cc9900;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2{
+    color:#cc9900;              /*subrubrik*/
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+p{
+    color:rgb(12, 12, 12);   /*text*/
+}
+.text-box{
+    border: 1px solid black;
+    background-color: rgba(204, 153, 0, 100);
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2rem;
+    
+
+}
+
+.social-icon ul{
+    margin-top: 100vmax;
+    position: absolute;
+    top: 50%;                   /*sociala medier position*/
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+
+}
+.social-icon li{
+    list-style: none;       /*sociala medier lista*/
+    margin: 0 15px;
+
+}
+.social-icon li .fab{
+    font-size: 35px;
+    line-height: 60px;      /*iconer layout och transition*/
+    transition: 2000ms;
+    color: black;
+
+}
+
+.social-icon ul li a:hover{
+    color: #fff;                /*icon hover*/
+    transform: translate(0,-10%);
+}
+.social-icon ul li a{
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;             /*icon utseende och transition*/
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 4px 8 px 0 rgba(0,0,0.2);
+    transition: 600ms;
+}
+
+.social-icon ul li:nth-child(1) a:hover{
+    background-color: rgb(56, 121, 218);   /* icon byta färg vid hover*/
+}
+.social-icon ul li:nth-child(2) a:hover{
+    background-color:rgb(182, 80, 182);  /*icon byta färg vid hover*/
+}
+
+
+
+
+
+
+
+
+
+

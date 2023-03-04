@@ -1,0 +1,62 @@
+.container{
+    display: flex;
+    justify-content: center;  /*flexbox*/
+    flex-wrap: wrap;
+}
+
+.card{
+    background:white;
+    width: 220px;
+    height: 500px;              /*kort layout*/
+    margin: 10px;
+    border-radius: 1rem;
+}
+
+.card-image{
+    height: 300px;
+    margin-bottom:15px;         /*bilder layout*/
+    background-size: cover;
+    border-radius: 1rem 1rem 0 0;
+
+}
+   
+/*classer med bilder i*/
+.mat-1{
+    background-image: url(/Bilder/Wonton-soup.webp);
+}
+.mat-2{
+    background-image: url(/Bilder/steamed-duplings.jpg);
+}
+
+.mat-3{
+    background-image: url(/Bilder/Peking-duck.jpg);
+}
+
+.mat-4{
+    background-image: url(/Bilder/biff-lök.jpg);
+}
+
+.mat-5{
+    background-image: url(/Bilder/moshi-fläsk.jpg);
+}
+
+.mat-6{
+    background-image: url(/Bilder/bannanas-split.jpg);
+}
+
+.pris{
+    color: red;     /*class för priset*/
+}
+.card h2{
+    padding: 10px;   /*kortens rubrik padding*/
+}
+.card p{
+    padding:10px    /*kortens text padding*/
+}
+
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.03);         /*transition vid hover*/
+    transition: all 1s ease;
+}
+    

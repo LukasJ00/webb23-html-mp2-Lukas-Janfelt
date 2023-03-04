@@ -25,7 +25,7 @@ body{
 
 #box{
     border: 1px solid black;
-    width: 250px;
+    width: 30vh;
     height: 40vh;
     background: #cc9900;
     display: flex;              /*öppetider box*/
@@ -81,7 +81,8 @@ h2{
 
 }
 p{
-    color:rgb(12, 12, 12);   /*text*/
+    color:rgb(12, 12, 12); 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  /*text*/
 }
 .text-box{
     border: 1px solid black;

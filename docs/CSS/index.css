@@ -24,12 +24,18 @@ body{
 
 
 #box{
+    margin-top: 1vh;
+    margin-right: 1vh;
     border: 1px solid black;
-    width: 30vh;
-    height: 40vh;
+    width: 25vh;
+    height: 17vh;
+    text-align-last: center;
     background: #cc9900;
+    padding-left: 8px;
+    padding-top: 5px;
     display: flex;              /*öppetider box*/
     position: absolute;
+    font-size:  25px;
     top:0;
     right: 0;
     border-radius: 1rem;
@@ -98,8 +104,10 @@ p{
 }
 
 .social-icon ul{
-    margin-top: 100vmax;
-    position: absolute;
+    border: solid 2 px black;
+    margin-top: 10vmax;
+    position:relative;
+    justify-content: center;
     top: 50%;                   /*sociala medier position*/
     left: 50%;
     transform: translate(-50%,-50%);
@@ -126,6 +134,7 @@ p{
 .social-icon ul li a{
     position: relative;
     display: block;
+    bottom: 0;
     width: 60px;
     height: 60px;
     border-radius: 50%;             /*icon utseende och transition*/
@@ -142,12 +151,19 @@ p{
     background-color:rgb(182, 80, 182);  /*icon byta färg vid hover*/
 }
 
+.tele{
+    width: 30%;
+    justify-content: center;
+    border: solid 2px black;
 
+}
+.info{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;                /*backgrunds bild layout*/
+    color: black;
+    margin-top: 5vh;
+    
 
-
-
-
-
-
-
-
+}

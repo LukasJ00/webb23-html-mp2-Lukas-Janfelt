@@ -1,10 +1,10 @@
 .grid-container{
     margin-top: 1rem;
     display: grid;
-    /*grid-auto-flow: column;*/
     grid-template-areas: "a b";
-    grid-auto-columns: 10vh 30vh; /* fick lära mig mer hur grid fungera*/
+    grid-auto-columns: 10vmax 30vmax; /* fick lära mig mer hur grid fungera*/
     justify-content: center;
+    
 
 }
 
@@ -17,7 +17,8 @@ padding: 10px;               /* outine för columnen*/
 
 #input{
     border-radius: 0.5rem;
-    font-size: 1rem;            /*layout på alla inputs*/
+    font-size: 1rem;      
+                              /*layout på alla inputs*/
 }
 
 .formulär{

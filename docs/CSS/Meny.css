@@ -22,26 +22,26 @@
    
 /*classer med bilder i*/
 .mat-1{
-    background-image: url(docs/bilder/Wonton-soup.webp);
+    background-image: url(bilder/Wonton-soup.webp);
 }
 .mat-2{
-    background-image: url(docs/bilder/steamed-duplings.jpg);
+    background-image: url(bilder/steamed-duplings.jpg);
 }
 
 .mat-3{
-    background-image: url(docs/bilder/Peking-duck.jpg);
+    background-image: url(bilder/Peking-duck.jpg);
 }
 
 .mat-4{
-    background-image: url(docs/bilder/biff-lök.jpg);
+    background-image: url(bilder/biff-lök.jpg);
 }
 
 .mat-5{
-    background-image: url(docs/bilder/moshi-fläsk.jpg);
+    background-image: url(bilder/moshi-fläsk.jpg);
 }
 
 .mat-6{
-    background-image: url(docs/bilder/bannanas-split.jpg);
+    background-image: url(bilder/bannanas-split.jpg);
 }
 
 .pris{

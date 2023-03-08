@@ -19,7 +19,12 @@ body{
     font-size: 3rem;
     background-position: center;
     background-size: cover;
-    background-image:linear-gradient(0deg,rgba(176, 31, 5, 0.5),rgba(231, 223, 210, 0.5)), url(/webb23-html-mp2-Lukas-Janfelt/docs/bilder/kin-long.webp);
+    background-image:linear-gradient(0deg,rgba(176, 31, 5, 0.5),rgba(231, 223, 210, 0.5)),url(../bilder/kin-long.webp);
+}
+.img01{
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
 }
 
 
